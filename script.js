@@ -65,7 +65,6 @@ let edit = document.querySelectorAll(".edit");
 edit.forEach((element) => {
   element.innerText = "Hide";
   element.addEventListener("click", () => {
-    let card = document.querySelector(".card");
     element.closest(".card").remove();
   });
 });
